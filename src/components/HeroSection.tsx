@@ -44,7 +44,7 @@ const HeroSection = () => {
                 onClick={() => scrollTo("diagnostic")}
                 className="bg-foreground text-primary-foreground px-6 py-3.5 rounded-md text-sm font-medium hover:opacity-90 transition-opacity"
               >
-                Run Your AI Workforce Architecture Diagnostic
+                Assess Your Next Hire for the AI Era
               </button>
               <button
                 onClick={() => scrollTo("framework")}
