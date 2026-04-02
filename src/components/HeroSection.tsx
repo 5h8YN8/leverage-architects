@@ -60,7 +60,7 @@ const HeroSection = () => {
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1, delay: 0.3, ease: "easeOut" }}
-            className="shrink-0 hidden md:block"
+            className="shrink-0 flex justify-center scale-75 md:scale-100"
           >
             <HumanInTheLoopAnimation />
           </motion.div>
