@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import LoopLogo from "./LoopLogo";
 
 const Navbar = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
