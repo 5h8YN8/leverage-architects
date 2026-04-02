@@ -69,7 +69,7 @@ const Navbar = () => {
                 ["Framework", "framework"],
                 ["Services", "services"],
                 ["Philosophy", "philosophy"],
-                ["Run Diagnostic", "diagnostic"],
+                ["Run Hiring Diagnostic", "diagnostic"],
               ].map(([label, id]) => (
                 <button
                   key={id}
