@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
-
-const HeroSection = () => {
+import HumanInTheLoopAnimation from "./HumanInTheLoopAnimation";
   const scrollTo = (id: string) => {
     document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
   };
