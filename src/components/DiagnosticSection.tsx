@@ -15,7 +15,7 @@ const DiagnosticSection = () => {
         >
           <p className="text-xs font-medium text-accent tracking-widest uppercase mb-4">Interactive</p>
           <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-4 leading-tight">
-            Run Your AI Workforce Architecture Diagnostic
+            Run Your AI Workforce Architecture Hiring Diagnostic
           </h2>
           <p className="text-base text-muted-foreground max-w-xl mb-10">
             Answer structured questions about your next hire or team structure.
