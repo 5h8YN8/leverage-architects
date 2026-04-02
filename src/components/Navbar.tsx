@@ -36,7 +36,7 @@ const Navbar = () => {
             onClick={() => scrollTo("diagnostic")}
             className="text-xs font-medium bg-foreground text-primary-foreground px-4 py-2 rounded-md hover:opacity-90 transition-opacity"
           >
-            Run Diagnostic
+            Run Hiring Diagnostic
           </button>
         </div>
 
@@ -69,7 +69,7 @@ const Navbar = () => {
                 ["Framework", "framework"],
                 ["Services", "services"],
                 ["Philosophy", "philosophy"],
-                ["Run Diagnostic", "diagnostic"],
+                ["Run Hiring Diagnostic", "diagnostic"],
               ].map(([label, id]) => (
                 <button
                   key={id}

@@ -15,7 +15,7 @@ const DiagnosticSection = () => {
         >
           <p className="text-xs font-medium text-accent tracking-widest uppercase mb-4">Interactive</p>
           <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-4 leading-tight">
-            Run Your AI Workforce Architecture Diagnostic
+            Run Your AI Workforce Architecture Hiring Diagnostic
           </h2>
           <p className="text-base text-muted-foreground max-w-xl mb-10">
             Answer structured questions about your next hire or team structure.
@@ -52,7 +52,7 @@ const DiagnosticSection = () => {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-foreground text-primary-foreground px-6 py-3.5 rounded-md text-sm font-medium hover:opacity-90 transition-opacity"
             >
-              Start Your Diagnostic
+              Start Your Hiring Diagnostic
               <svg width="14" height="14" viewBox="0 0 14 14" fill="none" className="opacity-70">
                 <path d="M1 13L13 1M13 1H5M13 1V9" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
               </svg>
