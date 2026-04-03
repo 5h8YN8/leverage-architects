@@ -20,7 +20,7 @@ const FooterSection = () => {
 
           <div className="flex items-center gap-6">
             <a
-              href="mailto:hello@humaninthelooptalent.com"
+              href="mailto:inquiry@humanintheloop.com"
               className="text-xs text-muted-foreground hover:text-foreground transition-colors"
             >
               Contact
