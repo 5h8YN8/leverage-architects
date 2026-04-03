@@ -47,7 +47,7 @@ const HeroSection = () => {
                 Assess Your Next Hire for the AI Era
               </button>
               <a
-                href="https://calendar.google.com/calendar/appointments/schedules/AcZssZ3rhwJR5Cbxz8tOya1Sg6tFEqPy6pioM-j_s0AzeRnMthx0HI5hANo-K9pfzpUl3L_L2XVqgSA3?gv=true"
+                href="https://calendar.app.google/uwpZw9K6raiwU3m29"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="border border-border text-foreground px-6 py-3.5 rounded-md text-sm font-medium hover:bg-secondary transition-colors text-center"
