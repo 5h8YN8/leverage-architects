@@ -38,14 +38,6 @@ const Navbar = () => {
           >
             Run Hiring Diagnostic
           </button>
-          <a
-            href="https://calendar.google.com/calendar/appointments/schedules/AcZssZ3rhwJR5Cbxz8tOya1Sg6tFEqPy6pioM-j_s0AzeRnMthx0HI5hANo-K9pfzpUl3L_L2XVqgSA3?gv=true"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-xs font-medium border border-border text-foreground px-4 py-2 rounded-md hover:bg-secondary transition-colors"
-          >
-            Book Free Consultation
-          </a>
         </div>
 
         <button
