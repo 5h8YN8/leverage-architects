@@ -18,11 +18,10 @@ const Navbar = () => {
           Human in the Loop<span className="text-accent ml-1">Talent</span>
         </button>
 
-        <div className="hidden md:flex items-center gap-8">
+         <div className="hidden md:flex items-center gap-8">
           {[
             ["Framework", "framework"],
             ["Services", "services"],
-            ["Philosophy", "philosophy"],
           ].map(([label, id]) => (
             <button
               key={id}
@@ -32,6 +31,14 @@ const Navbar = () => {
               {label}
             </button>
           ))}
+          <a
+            href="https://humaninthelooptalent.com/insights/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-xs font-medium text-muted-foreground hover:text-foreground transition-colors"
+          >
+            Insights
+          </a>
           <button
             onClick={() => scrollTo("diagnostic")}
             className="text-xs font-medium bg-foreground text-primary-foreground px-4 py-2 rounded-md hover:opacity-90 transition-opacity"
