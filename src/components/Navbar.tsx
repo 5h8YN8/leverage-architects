@@ -56,35 +56,31 @@ const Navbar = () => {
         </button>
       </div>
 
-      <AnimatePresence>
-        {mobileOpen && (
-          <motion.div
-            initial={{ height: 0, opacity: 0 }}
-            animate={{ height: "auto", opacity: 1 }}
-            exit={{ height: 0, opacity: 0 }}
-            className="md:hidden border-t border-border bg-background"
-            style={{ overflow: "hidden" }}
-            onAnimationComplete={() => {}}
-          >
-            <div className="section-container py-4 flex flex-col gap-3">
-              {[
-                ["Framework", "framework"],
-                ["Services", "services"],
-                ["Philosophy", "philosophy"],
-                ["Run Hiring Diagnostic", "diagnostic"],
-              ].map(([label, id]) => (
-                <button
-                  key={id}
-                  onClick={() => scrollTo(id)}
-                  className="text-sm text-left text-muted-foreground hover:text-foreground transition-colors"
-                >
-                  {label}
-                </button>
-              ))}
-            </div>
-          </motion.div>
-        )}
-      </AnimatePresence>
+      {mobileOpen && (
+        <motion.div
+          initial={{ opacity: 0, y: -10 }}
+          animate={{ opacity: 1, y: 0 }}
+          exit={{ opacity: 0, y: -10 }}
+          className="md:hidden border-t border-border bg-background"
+        >
+          <div className="section-container py-4 flex flex-col gap-3">
+            {[
+              ["Framework", "framework"],
+              ["Services", "services"],
+              ["Philosophy", "philosophy"],
+              ["Run Hiring Diagnostic", "diagnostic"],
+            ].map(([label, id]) => (
+              <button
+                key={id}
+                onClick={() => scrollTo(id)}
+                className="text-sm text-left text-muted-foreground hover:text-foreground transition-colors py-2"
+              >
+                {label}
+              </button>
+            ))}
+          </div>
+        </motion.div>
+      )}
     </nav>
   );
 };
