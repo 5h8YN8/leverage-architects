@@ -3,39 +3,39 @@ import { motion } from "framer-motion";
 const pillars = [
   {
     number: "01",
-    title: "Compensation Distortion",
+    title: "AI Readiness",
     description:
-      "Salary bands misaligned with actual scope, market dynamics, and the leverage a role demands. Overpaying for execution, underpaying for judgment.",
+      "Teams operating without AI workflow integration. Manual processes persisting where intelligent automation would multiply output by orders of magnitude. The gap between where AI could take you and where you actually are.",
   },
   {
     number: "02",
-    title: "Scope Overload",
+    title: "Role Clarity",
     description:
-      "Roles absorbing responsibilities from adjacent functions without architectural intent. Three jobs packaged as one title, guaranteeing burnout and under-delivery.",
+      "Ownership undefined. Roadmap, growth, and AI initiatives either unowned, concentrated in the founder, or scattered across people who weren't hired for them. Structural ambiguity disguised as flexibility.",
   },
   {
     number: "03",
-    title: "Career Architecture Deficiency",
+    title: "Execution Bottleneck Severity",
     description:
-      "No visible trajectory. No structured growth model. Talent leaves not because of compensation — but because of ceiling.",
+      "The drag coefficient on your velocity. Founder dependency, slow shipping, bloated coordination — the compounding friction that makes every sprint feel like a quarter.",
   },
   {
     number: "04",
-    title: "Geographic Friction",
+    title: "Leverage Opportunity",
     description:
-      "Location mandates without corresponding compensation calibration. In-office requirements eroding candidate pools without offsetting value.",
+      "The inverse of your readiness. Where AI can multiply your existing team instead of adding headcount. The higher this score, the more you're leaving on the table by hiring before redesigning.",
   },
   {
     number: "05",
-    title: "AI Leverage Inefficiency",
+    title: "Hiring Urgency",
     description:
-      "Teams operating without AI workflow integration. Manual processes persisting where intelligent automation would multiply output by orders of magnitude.",
+      "Not how fast you want to hire — how fast you should. Budget, stage, bottleneck severity, and whether the problem is a people problem or a process problem. Most teams overestimate this score.",
   },
   {
     number: "06",
-    title: "Headcount Redundancy Risk",
+    title: "Execution Roadmap",
     description:
-      "Hiring roles that AI systems will subsume within 18 months. Building teams for yesterday's execution model instead of tomorrow's leverage architecture.",
+      "A 90-day hiring and operations plan calibrated to your scores. Month 1: redesign, clarify, brief. Month 2: open search on the right roles. Month 3: onboarding with defined outcomes. Not a report — a playbook.",
   },
 ];
 
