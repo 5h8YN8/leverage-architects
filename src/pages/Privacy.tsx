@@ -59,7 +59,7 @@ const Privacy = () => {
           <section>
             <h2 className="text-lg font-semibold mb-3">7. Your Rights</h2>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              You have the right to access, correct, or delete your personal information. You may also opt out of receiving marketing communications from us at any time. To exercise any of these rights, please contact us at hello@humaninthelooptalent.com.
+              You have the right to access, correct, or delete your personal information. You may also opt out of receiving marketing communications from us at any time. To exercise any of these rights, please contact us at inquiry@humanintheloop.com.
             </p>
           </section>
 
