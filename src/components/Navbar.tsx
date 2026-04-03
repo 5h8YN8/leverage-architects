@@ -74,7 +74,6 @@ const Navbar = () => {
             {[
               ["Framework", "framework"],
               ["Services", "services"],
-              ["Philosophy", "philosophy"],
               ["Run Hiring Diagnostic", "diagnostic"],
             ].map(([label, id]) => (
               <button
@@ -85,6 +84,15 @@ const Navbar = () => {
                 {label}
               </button>
             ))}
+            <a
+              href="https://humaninthelooptalent.com/insights/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm text-left text-muted-foreground hover:text-foreground transition-colors py-2"
+              onClick={() => setMobileOpen(false)}
+            >
+              Insights
+            </a>
           </div>
         </motion.div>
       )}
