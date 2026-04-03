@@ -74,8 +74,8 @@ const Privacy = () => {
             <h2 className="text-lg font-semibold mb-3">9. Contact Us</h2>
             <p className="text-sm text-muted-foreground leading-relaxed">
               If you have any questions about this Privacy Policy, please contact us at{" "}
-              <a href="mailto:hello@humaninthelooptalent.com" className="text-accent hover:underline">
-                hello@humaninthelooptalent.com
+              <a href="mailto:inquiry@humanintheloop.com" className="text-accent hover:underline">
+                inquiry@humanintheloop.com
               </a>.
             </p>
           </section>
