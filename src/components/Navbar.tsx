@@ -62,7 +62,9 @@ const Navbar = () => {
             initial={{ height: 0, opacity: 0 }}
             animate={{ height: "auto", opacity: 1 }}
             exit={{ height: 0, opacity: 0 }}
-            className="md:hidden border-t border-border overflow-hidden bg-background"
+            className="md:hidden border-t border-border bg-background"
+            style={{ overflow: "hidden" }}
+            onAnimationComplete={() => {}}
           >
             <div className="section-container py-4 flex flex-col gap-3">
               {[
