@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const FooterSection = () => {
   const scrollTo = (id: string) => {
     document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
