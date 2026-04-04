@@ -36,8 +36,8 @@ const HeroSection = () => {
             </h1>
 
             <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-2xl mb-10">
-              Human in the Loop designs AI-augmented teams and hires the roles
-              that multiply output.
+              Run an AI hiring diagnostic to determine who to hire, what to
+              automate, and how to scale output without bloating headcount.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
