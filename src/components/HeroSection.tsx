@@ -31,7 +31,8 @@ const HeroSection = () => {
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.05] tracking-tight text-foreground mb-6">
               Headcount Is No Longer the Growth Engine.{" "}
-              <span className="text-gradient">Leverage Is.</span>
+              <br />
+              <span className="text-gradient">AI-Driven Output Is.</span>
             </h1>
 
             <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-2xl mb-10">
