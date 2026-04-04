@@ -33,12 +33,14 @@ const FooterSection = () => {
             >
               LinkedIn
             </a>
-            <button
-              onClick={() => scrollTo("diagnostic")}
+            <a
+              href="https://chatgpt.com/g/g-69372515ad4881918df4d4c2f4080477-hiring-diagnostic"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-xs font-medium bg-foreground text-primary-foreground px-4 py-2 rounded-md hover:opacity-90 transition-opacity"
             >
               Run Hiring Diagnostic
-            </button>
+            </a>
             <a
               href="https://calendar.app.google/uwpZw9K6raiwU3m29"
               target="_blank"
