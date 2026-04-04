@@ -76,7 +76,6 @@ const Navbar = () => {
             {[
               ["Framework", "framework"],
               ["Services", "services"],
-              ["Run Hiring Diagnostic", "diagnostic"],
             ].map(([label, id]) => (
               <button
                 key={id}
@@ -86,6 +85,15 @@ const Navbar = () => {
                 {label}
               </button>
             ))}
+            <a
+              href="https://chatgpt.com/g/g-69372515ad4881918df4d4c2f4080477-hiring-diagnostic"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm text-left text-muted-foreground hover:text-foreground transition-colors py-2"
+              onClick={() => setMobileOpen(false)}
+            >
+              Run Hiring Diagnostic
+            </a>
             <a
               href="https://humaninthelooptalent.com/insights/"
               target="_blank"
