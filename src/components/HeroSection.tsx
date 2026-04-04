@@ -25,7 +25,7 @@ const HeroSection = () => {
             <div className="flex items-center gap-2 mb-8">
               <div className="w-2 h-2 rounded-full bg-accent" />
               <span className="text-xs font-medium text-muted-foreground tracking-widest uppercase">
-                AI-Augmented Workforce Architecture
+                Hiring Diagnostic to Maximize Output
               </span>
             </div>
 
