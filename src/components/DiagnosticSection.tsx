@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-const CUSTOM_GPT_URL = "https://chatgpt.com/g/YOUR-GPT-ID-HERE";
+const CUSTOM_GPT_URL = "https://chatgpt.com/g/g-69372515ad4881918df4d4c2f4080477-hiring-diagnostic";
 
 const DiagnosticSection = () => {
   return (

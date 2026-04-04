@@ -41,12 +41,14 @@ const HeroSection = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <button
-                onClick={() => scrollTo("diagnostic")}
+              <a
+                href="https://chatgpt.com/g/g-69372515ad4881918df4d4c2f4080477-hiring-diagnostic"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="bg-foreground text-primary-foreground px-6 py-3.5 rounded-md text-sm font-medium hover:opacity-90 transition-opacity"
               >
                 Assess Your Next Hire for the AI Era
-              </button>
+              </a>
               <a
                 href="https://calendar.app.google/uwpZw9K6raiwU3m29"
                 target="_blank"
