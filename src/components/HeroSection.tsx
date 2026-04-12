@@ -49,7 +49,7 @@ const HeroSection = () => {
                 rel="noopener noreferrer"
                 className="bg-foreground text-primary-foreground px-6 py-3.5 rounded-md text-sm font-medium hover:opacity-90 transition-opacity"
               >
-                Assess Your Next Hire for the AI Era
+                Free: Assess Your Next Hire for the AI Era
               </a>
               <a
                 href="https://calendar.app.google/uwpZw9K6raiwU3m29"
