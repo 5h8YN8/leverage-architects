@@ -30,14 +30,16 @@ const HeroSection = () => {
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.05] tracking-tight text-foreground mb-6">
-              Headcount Is No Longer the Growth Engine.{" "}
+              Hit $3M+ Revenue{" "}
               <br />
-              <span className="text-gradient">AI-Driven Output Is.</span>
+              <span className="text-gradient">Per Employee</span>
             </h1>
 
             <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-2xl mb-10">
-              Run an AI hiring diagnostic to determine who to hire, what to
-              automate, and how to scale output without bloating headcount.
+              <strong className="text-foreground">Headcount doesn't scale output anymore—AI does.</strong>
+              <br className="hidden sm:block" />
+              {" "}Run an AI hiring diagnostic to identify exactly who to hire, what to
+              automate, and how to maximize output without adding unnecessary headcount.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
