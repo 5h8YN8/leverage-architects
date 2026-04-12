@@ -65,6 +65,12 @@ const HeroSection = () => {
 
             <div className="space-y-1">
               <p className="text-xs text-muted-foreground text-center sm:text-left">
+                Know exactly who to hire (or not) in the next 30 days to improve revenue per employee
+              </p>
+              <p className="text-xs text-accent font-medium text-center sm:text-left">
+                Custom AI hiring plan (typically $1,000+ value) — generated in minutes
+              </p>
+              <p className="text-xs text-muted-foreground text-center sm:text-left">
                 We will help you hire the right people based on your plan.
               </p>
             </div>
