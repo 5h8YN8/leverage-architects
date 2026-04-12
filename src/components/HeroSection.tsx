@@ -1,11 +1,9 @@
 import { motion } from "framer-motion";
 import HumanInTheLoopAnimation from "./HumanInTheLoopAnimation";
 
-const HeroSection = () => {
-  const scrollTo = (id: string) => {
-    document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
-  };
+const CUSTOM_GPT_URL = "https://chatgpt.com/g/g-69372515ad4881918df4d4c2f4080477-hire-for-revenue-per-employee";
 
+const HeroSection = () => {
   return (
     <section id="hero" className="relative min-h-screen flex items-center overflow-hidden">
       {/* Grid background */}
@@ -25,31 +23,35 @@ const HeroSection = () => {
             <div className="flex items-center gap-2 mb-8">
               <div className="w-2 h-2 rounded-full bg-accent" />
               <span className="text-xs font-medium text-muted-foreground tracking-widest uppercase">
-                Hiring Diagnostic to Maximize Output
+                AI-Powered Hiring Plan — Free in Minutes
               </span>
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.05] tracking-tight text-foreground mb-6">
-              Hit $3M+ Revenue{" "}
+              Know Exactly Who to Hire{" "}
               <br />
-              <span className="text-gradient">Per Employee</span>
+              <span className="text-gradient">in the Next 30 Days</span>
             </h1>
 
-            <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-2xl mb-10">
-              <strong className="text-foreground">Headcount doesn't scale output anymore—AI does.</strong>
+            <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-2xl mb-4">
+              <strong className="text-foreground">Stop guessing. Start hiring for revenue per employee.</strong>
               <br className="hidden sm:block" />
-              {" "}Run an AI hiring diagnostic to identify exactly who to hire, what to
-              automate, and how to maximize output without adding unnecessary headcount.
+              {" "}Get a personalized hiring plan that tells you who to hire, who not to hire, 
+              what to automate, and how to improve output — without adding unnecessary headcount.
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4">
+            <p className="text-sm text-muted-foreground mb-10">
+              Answer a few questions → get a personalized hiring plan in minutes
+            </p>
+
+            <div className="flex flex-col sm:flex-row gap-4 mb-3">
               <a
-                href="https://chatgpt.com/g/g-69372515ad4881918df4d4c2f4080477-hire-for-revenue-per-employee"
+                href={CUSTOM_GPT_URL}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-foreground text-primary-foreground px-6 py-3.5 rounded-md text-sm font-medium hover:opacity-90 transition-opacity text-center"
               >
-                Free: Assess Your Next Hire for the AI Era
+                Generate My Free Hiring Plan →
               </a>
               <a
                 href="https://calendar.app.google/uwpZw9K6raiwU3m29"
@@ -59,6 +61,15 @@ const HeroSection = () => {
               >
                 Book Free Consultation
               </a>
+            </div>
+
+            <div className="space-y-1">
+              <p className="text-xs text-muted-foreground text-center sm:text-left">
+                Know exactly who to hire (or not) in the next 30 days to improve revenue per employee
+              </p>
+              <p className="text-xs text-accent font-medium text-center sm:text-left">
+                Custom AI hiring plan (typically $1,000+ value) — generated in minutes
+              </p>
             </div>
           </motion.div>
 

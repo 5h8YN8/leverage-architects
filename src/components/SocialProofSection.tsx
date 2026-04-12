@@ -13,7 +13,7 @@ const SocialProofSection = () => {
         >
           <div className="w-12 h-px bg-accent mx-auto mb-8" />
           <p className="text-lg md:text-xl text-muted-foreground max-w-xl mx-auto leading-relaxed">
-            Designed for AI-native and product-led companies scaling intelligently.
+            Built for founders and operators who want to hire fewer people — and get more done.
           </p>
           <div className="w-12 h-px bg-accent mx-auto mt-8" />
         </motion.div>
