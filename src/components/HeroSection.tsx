@@ -59,7 +59,7 @@ const HeroSection = () => {
                 rel="noopener noreferrer"
                 className="border border-border text-foreground px-6 py-3.5 rounded-md text-sm font-medium hover:bg-secondary transition-colors text-center"
               >
-                Book Free Consultation
+                Execute My Hiring Plan Now
               </a>
             </div>
 
