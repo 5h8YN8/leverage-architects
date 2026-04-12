@@ -3,9 +3,9 @@ import { motion } from "framer-motion";
 const pillars = [
   {
     number: "01",
-    title: "AI Replacement Score",
+    title: "Role-to-Revenue Score",
     description:
-      "See which roles on your team (or on your hiring plan) can be partially or fully handled by AI. Stop paying for work that doesn't need a human.",
+      "See exactly which roles will move revenue per employee — and which ones won't. Hire only the positions that directly increase output relative to headcount.",
   },
   {
     number: "02",
