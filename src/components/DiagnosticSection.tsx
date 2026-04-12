@@ -52,7 +52,7 @@ const DiagnosticSection = () => {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-foreground text-primary-foreground px-6 py-3.5 rounded-md text-sm font-medium hover:opacity-90 transition-opacity"
             >
-              Start Your Hiring Diagnostic
+              Free: Start Your Hiring Diagnostic
               <svg width="14" height="14" viewBox="0 0 14 14" fill="none" className="opacity-70">
                 <path d="M1 13L13 1M13 1H5M13 1V9" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
               </svg>

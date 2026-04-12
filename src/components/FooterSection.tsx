@@ -39,7 +39,7 @@ const FooterSection = () => {
               rel="noopener noreferrer"
               className="text-xs font-medium bg-foreground text-primary-foreground px-4 py-2 rounded-md hover:opacity-90 transition-opacity"
             >
-              Run Hiring Diagnostic
+              Free Hiring Diagnostic
             </a>
             <a
               href="https://calendar.app.google/uwpZw9K6raiwU3m29"
