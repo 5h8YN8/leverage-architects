@@ -14,7 +14,7 @@ const FooterSection = () => {
               Human in the Loop<span className="text-accent ml-1">Talent</span>
             </p>
             <p className="text-xs text-muted-foreground">
-              AI-Augmented Workforce Architecture
+              Know who to hire. Improve revenue per employee.
             </p>
           </div>
 
@@ -39,7 +39,7 @@ const FooterSection = () => {
               rel="noopener noreferrer"
               className="text-xs font-medium bg-foreground text-primary-foreground px-4 py-2 rounded-md hover:opacity-90 transition-opacity"
             >
-              Free Hiring Diagnostic
+              Free Hiring Plan
             </a>
             <a
               href="https://calendar.app.google/uwpZw9K6raiwU3m29"

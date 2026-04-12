@@ -12,15 +12,15 @@ const PhilosophySection = () => {
           transition={{ duration: 0.6 }}
           className="max-w-2xl"
         >
-          <p className="text-xs font-medium text-accent tracking-widest uppercase mb-4">Philosophy</p>
+          <p className="text-xs font-medium text-accent tracking-widest uppercase mb-4">Our Approach</p>
           <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-8 leading-tight">
-            We Don't Fill Seats.{" "}
-            <span className="text-gradient">We Architect Leverage.</span>
+            Fewer Hires.{" "}
+            <span className="text-gradient">Higher Output.</span>
           </h2>
           <div className="space-y-4 text-base md:text-lg text-muted-foreground leading-relaxed">
-            <p>In the AI era, the cost of a mis-hire is not salary.</p>
-            <p>It is structural drag.</p>
-            <p>We design teams before we recruit for them.</p>
+            <p>Every unnecessary hire lowers your revenue per employee.</p>
+            <p>Every wrong hire creates months of drag you can't undo.</p>
+            <p>We help you hire only when it's the right move — and know exactly who.</p>
           </div>
         </motion.div>
       </div>

@@ -3,39 +3,39 @@ import { motion } from "framer-motion";
 const pillars = [
   {
     number: "01",
-    title: "AI Readiness",
+    title: "AI Replacement Score",
     description:
-      "Teams operating without AI workflow integration. Manual processes persisting where intelligent automation would multiply output by orders of magnitude. The gap between where AI could take you and where you actually are.",
+      "See which roles on your team (or on your hiring plan) can be partially or fully handled by AI. Stop paying for work that doesn't need a human.",
   },
   {
     number: "02",
-    title: "Role Clarity",
+    title: "Role Clarity Check",
     description:
-      "Ownership undefined. Roadmap, growth, and AI initiatives either unowned, concentrated in the founder, or scattered across people who weren't hired for them. Structural ambiguity disguised as flexibility.",
+      "Find out if your next hire has a clearly defined outcome — or if you're about to create a vague role that drags down output and confuses your team.",
   },
   {
     number: "03",
-    title: "Execution Bottleneck Severity",
+    title: "Bottleneck Diagnosis",
     description:
-      "The drag coefficient on your velocity. Founder dependency, slow shipping, bloated coordination — the compounding friction that makes every sprint feel like a quarter.",
+      "Identify whether your slowdown is a people problem or a process problem. Most teams hire when they should redesign. This tells you which one.",
   },
   {
     number: "04",
-    title: "Leverage Opportunity",
+    title: "Headcount Efficiency Rating",
     description:
-      "The inverse of your readiness. Where AI can multiply your existing team instead of adding headcount. The higher this score, the more you're leaving on the table by hiring before redesigning.",
+      "Get a clear score on how much output you're generating per person. See where you're overstaffed, understaffed, or misallocated.",
   },
   {
     number: "05",
-    title: "Hiring Urgency",
+    title: "Hiring Urgency Assessment",
     description:
-      "Not how fast you want to hire — how fast you should. Budget, stage, bottleneck severity, and whether the problem is a people problem or a process problem. Most teams overestimate this score.",
+      "Not how fast you want to hire — how fast you should. Based on your budget, stage, and bottlenecks. Most teams overestimate urgency.",
   },
   {
     number: "06",
-    title: "Execution Roadmap",
+    title: "30-Day Hiring Roadmap",
     description:
-      "A 90-day hiring and operations plan calibrated to your scores. Month 1: redesign, clarify, brief. Month 2: open search on the right roles. Month 3: onboarding with defined outcomes. Not a report — a playbook.",
+      "A step-by-step plan for the next 30 days: who to hire, what to automate, and what to stop doing. Not theory — a concrete action plan.",
   },
 ];
 
@@ -51,9 +51,9 @@ const FrameworkSection = () => {
           transition={{ duration: 0.6 }}
           className="mb-16"
         >
-          <p className="text-xs font-medium text-accent tracking-widest uppercase mb-4">The Model</p>
+          <p className="text-xs font-medium text-accent tracking-widest uppercase mb-4">What You Get</p>
           <h2 className="text-3xl md:text-5xl font-bold text-foreground max-w-3xl leading-tight">
-            The AI-Augmented Workforce Architecture Model
+            Your Hiring Plan Covers Six Critical Decisions
           </h2>
         </motion.div>
 

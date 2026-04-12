@@ -45,7 +45,7 @@ const Navbar = () => {
             rel="noopener noreferrer"
             className="text-xs font-medium bg-foreground text-primary-foreground px-4 py-2 rounded-md hover:opacity-90 transition-opacity"
           >
-            Free Hiring Diagnostic
+             Free Hiring Plan
           </a>
         </div>
 
@@ -92,7 +92,7 @@ const Navbar = () => {
               className="text-sm text-left text-muted-foreground hover:text-foreground transition-colors py-2"
               onClick={() => setMobileOpen(false)}
             >
-              Free Hiring Diagnostic
+              Free Hiring Plan
             </a>
             <a
               href="https://humaninthelooptalent.com/insights/"
