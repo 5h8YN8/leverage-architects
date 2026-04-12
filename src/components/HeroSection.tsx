@@ -44,7 +44,7 @@ const HeroSection = () => {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <a
-                href="https://chatgpt.com/g/g-69372515ad4881918df4d4c2f4080477-hiring-diagnostic"
+                href="https://chatgpt.com/g/g-69372515ad4881918df4d4c2f4080477-hire-for-revenue-per-employee"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-foreground text-primary-foreground px-6 py-3.5 rounded-md text-sm font-medium hover:opacity-90 transition-opacity"
