@@ -27,9 +27,9 @@ const HeroSection = () => {
               </span>
             </div>
 
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.05] tracking-tight text-foreground mb-6">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.1] md:leading-[1.05] tracking-tight text-foreground mb-6 break-words hyphens-auto">
               Know Exactly Who to Hire to{" "}
-              <br />
+              <br className="hidden sm:block" />
               <span className="text-gradient">Increase Revenue Per Employee</span>
             </h1>
 
