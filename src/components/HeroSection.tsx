@@ -5,14 +5,14 @@ const CUSTOM_GPT_URL = "https://chatgpt.com/g/g-69372515ad4881918df4d4c2f4080477
 
 const HeroSection = () => {
   return (
-    <section id="hero" className="relative min-h-screen flex items-center overflow-hidden">
+    <section id="hero" className="relative min-h-screen flex items-center overflow-hidden pt-24 md:pt-20">
       {/* Grid background */}
       <div className="absolute inset-0 grid-bg opacity-40" />
       
       {/* Accent glow */}
       <div className="absolute top-1/4 right-1/4 w-96 h-96 bg-accent/5 rounded-full blur-3xl" />
 
-      <div className="section-container relative z-10 py-32 md:py-0">
+      <div className="section-container relative z-10 py-16 md:py-12">
         <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
           <motion.div
             initial={{ opacity: 0, y: 32 }}
