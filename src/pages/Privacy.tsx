@@ -17,7 +17,21 @@ const Privacy = () => {
           <section>
             <h2 className="text-lg font-semibold mb-3">1. Information We Collect</h2>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              We collect information you provide directly to us, including your name, email address, company name, and any other information you choose to provide when filling out our diagnostic assessment, booking a consultation, or contacting us via email. We also automatically collect certain technical information when you visit our website, including your IP address, browser type, operating system, and browsing behavior through cookies and similar technologies.
+              We collect information you provide directly to us, including your name, email address, company name, and any other information you choose to provide when booking a consultation or contacting us via email. When you complete our diagnostic assessment, your responses may include company information, team size, hiring priorities, AI usage, bottlenecks, roles being considered, and hiring budget range. We also automatically collect certain technical information when you visit our website, including your IP address, browser type, operating system, and browsing behavior through cookies and similar technologies.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-lg font-semibold mb-3">2. Diagnostic Reports and Shareable Links</h2>
+            <p className="text-sm text-muted-foreground leading-relaxed">
+              Diagnostic reports generated from your assessment can be shared via a unique link. These links are shareable and can be viewed by anyone who has the link until they expire. Reports are not publicly listed or indexed, but you should only share the link with people you intend to give access to your diagnostic results.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-lg font-semibold mb-3">3. Data Retention</h2>
+            <p className="text-sm text-muted-foreground leading-relaxed">
+              Shareable diagnostic report links expire after 30 days by default. Session data may be retained for up to 12 months to support product improvement and user support unless deleted earlier through automated cleanup or by request. You may request deletion of your session data at any time by contacting us.
             </p>
           </section>
 
