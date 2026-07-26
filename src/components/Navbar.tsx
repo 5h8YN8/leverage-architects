@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import LoopLogo from "./LoopLogo";
+import logoAsset from "@/assets/human-in-the-loop-logo.png.asset.json";
 
 const Navbar = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
