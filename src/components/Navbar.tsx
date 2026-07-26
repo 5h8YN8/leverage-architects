@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import LoopLogo from "./LoopLogo";
+import logoAsset from "@/assets/human-in-the-loop-logo.png.asset.json";
 
 const Navbar = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -14,7 +14,7 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-lg border-b border-border">
       <div className="section-container flex items-center justify-between h-16">
         <button onClick={() => scrollTo("hero")} className="flex items-center gap-2 text-sm font-semibold tracking-tight text-foreground">
-          <LoopLogo size={22} />
+          <img src={logoAsset.url} alt="Human in the Loop Talent logo" className="h-6 w-6 object-contain" />
           Human in the Loop<span className="text-accent ml-1">Talent</span>
         </button>
 
