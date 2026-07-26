@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import HumanInTheLoopAnimation from "./HumanInTheLoopAnimation";
 
-const CUSTOM_GPT_URL = "https://chatgpt.com/g/g-69372515ad4881918df4d4c2f4080477-hire-for-revenue-per-employee";
+const CUSTOM_GPT_URL = "https://chatgpt.com/g/g-69372515ad4881918df4d4c2f4080477-revenue-per-employee-planner";
 
 const HeroSection = () => {
   return (

@@ -34,7 +34,7 @@ const FooterSection = () => {
               LinkedIn
             </a>
             <a
-              href="https://chatgpt.com/g/g-69372515ad4881918df4d4c2f4080477-hire-for-revenue-per-employee"
+              href="https://chatgpt.com/g/g-69372515ad4881918df4d4c2f4080477-revenue-per-employee-planner"
               target="_blank"
               rel="noopener noreferrer"
               className="text-xs font-medium bg-foreground text-primary-foreground px-4 py-2 rounded-md hover:opacity-90 transition-opacity"
