@@ -12,9 +12,9 @@ const ServicesSection = () => {
           transition={{ duration: 0.5 }}
           className="text-sm md:text-base text-muted-foreground mb-16 leading-relaxed max-w-xl"
         >
-          Most companies plan around headcount.
+          Most companies hire to fill roles.
           <br />
-          We design for leverage before staffing choices are made.
+          We help you hire only the roles that improve revenue per employee.
         </motion.p>
 
         <motion.div
@@ -24,15 +24,13 @@ const ServicesSection = () => {
           transition={{ duration: 0.6 }}
           className="mb-16"
         >
-          <p className="text-xs font-medium text-accent tracking-widest uppercase mb-4">How We Work With You</p>
+          <p className="text-xs font-medium text-accent tracking-widest uppercase mb-4">Beyond the Free Plan</p>
           <h2 className="text-3xl md:text-5xl font-bold text-foreground leading-tight mb-6">
-            Aligned for Outcomes, Not Placements
+            Need Hands-On Hiring Execution?
           </h2>
           <p className="text-base md:text-lg text-muted-foreground leading-relaxed max-w-2xl">
-            We don't use the canvas to make employment decisions.
-            <br />
-            We help teams clarify structure, ownership, and AI leverage for
-            human-led planning.
+            Start with the free hiring plan. If you need us to execute — finding, vetting, 
+            and placing the exact right person — we do that too.
           </p>
         </motion.div>
 
@@ -44,16 +42,16 @@ const ServicesSection = () => {
             transition={{ duration: 0.5 }}
             className="border border-border rounded-lg p-8 bg-surface-elevated hover:border-accent/30 transition-colors flex flex-col"
           >
-            <h3 className="text-xl font-bold text-foreground mb-2">Planning Partnership</h3>
+            <h3 className="text-xl font-bold text-foreground mb-2">Exclusive Partnership</h3>
             <p className="text-sm font-medium text-accent mb-4">
-              Deeper alignment. Lower noise. Higher signal.
+              One partner. Full context. No wasted interviews.
             </p>
             <p className="text-sm text-muted-foreground leading-relaxed mb-6 flex-1">
-              For companies clarifying where leverage should come from before
-              making organizational or staffing choices.
+              We embed with your team, validate which roles actually improve output, 
+              and only open searches that will raise your revenue per employee.
             </p>
             <p className="text-xs text-muted-foreground/60">
-              Planning scope defined by engagement
+              17% placement fee
             </p>
           </motion.div>
 
@@ -64,16 +62,16 @@ const ServicesSection = () => {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="border border-border rounded-lg p-8 bg-surface-elevated hover:border-accent/30 transition-colors flex flex-col"
           >
-            <h3 className="text-xl font-bold text-foreground mb-2">Architecture Review</h3>
+            <h3 className="text-xl font-bold text-foreground mb-2">Retained Search</h3>
             <p className="text-sm font-medium text-accent mb-4">
-              For teams that need clearer ownership and operating leverage.
+              For the hire that changes your company's trajectory.
             </p>
             <p className="text-sm text-muted-foreground leading-relaxed mb-6 flex-1">
-              Used when workflows, AI adoption, and accountability need to be
-              mapped before people-process decisions are made.
+              Used for early-stage or leadership hires where getting it wrong costs 
+              6+ months. Includes full assessment calibrated to output, not just credentials.
             </p>
             <p className="text-xs text-muted-foreground/60">
-              Advisory scope defined by engagement
+              20% retained engagement
             </p>
           </motion.div>
         </div>
@@ -85,7 +83,7 @@ const ServicesSection = () => {
           transition={{ duration: 0.6 }}
           className="text-sm text-muted-foreground italic"
         >
-          Every engagement starts with defining where leverage actually comes from.
+          Every engagement starts with the free hiring plan — so you know exactly what you need before spending a dollar.
         </motion.p>
       </div>
     </section>
