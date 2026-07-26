@@ -14,7 +14,7 @@ const FooterSection = () => {
               Human in the Loop<span className="text-accent ml-1">Talent</span>
             </p>
             <p className="text-xs text-muted-foreground">
-              Know who to hire. Improve revenue per employee.
+              AI-Augmented Workforce Architecture
             </p>
           </div>
 
@@ -33,14 +33,12 @@ const FooterSection = () => {
             >
               LinkedIn
             </a>
-            <a
-              href="https://chatgpt.com/g/g-69372515ad4881918df4d4c2f4080477-revenue-per-employee-planner"
-              target="_blank"
-              rel="noopener noreferrer"
+            <button
+              onClick={() => scrollTo("diagnostic")}
               className="text-xs font-medium bg-foreground text-primary-foreground px-4 py-2 rounded-md hover:opacity-90 transition-opacity"
             >
-              Free Hiring Plan
-            </a>
+              Open Planner
+            </button>
             <a
               href="https://calendar.app.google/uwpZw9K6raiwU3m29"
               target="_blank"

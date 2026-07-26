@@ -12,15 +12,15 @@ const PhilosophySection = () => {
           transition={{ duration: 0.6 }}
           className="max-w-2xl"
         >
-          <p className="text-xs font-medium text-accent tracking-widest uppercase mb-4">Our Approach</p>
+          <p className="text-xs font-medium text-accent tracking-widest uppercase mb-4">Philosophy</p>
           <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-8 leading-tight">
-            Fewer Hires.{" "}
-            <span className="text-gradient">Higher Output.</span>
+            We Don't Make People Decisions.{" "}
+            <span className="text-gradient">We Architect Leverage.</span>
           </h2>
           <div className="space-y-4 text-base md:text-lg text-muted-foreground leading-relaxed">
-            <p>Every unnecessary hire lowers your revenue per employee.</p>
-            <p>Every wrong hire creates months of drag you can't undo.</p>
-            <p>We help you hire only when it's the right move — and know exactly who.</p>
+            <p>In the AI era, structural drag hides inside workflows.</p>
+            <p>The canvas surfaces planning questions, not employment answers.</p>
+            <p>Humans remain responsible for organizational and staffing choices.</p>
           </div>
         </motion.div>
       </div>
