@@ -37,19 +37,21 @@ const Navbar = () => {
             </button>
           ))}
           <a
-            href="https://humaninthelooptalent.com/insights"
+            href="https://humaninthelooptalent.com/insights/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-xs font-medium text-muted-foreground hover:text-foreground transition-colors"
           >
             Insights
           </a>
-          <button
-            onClick={() => scrollTo("diagnostic")}
+          <a
+            href="https://chatgpt.com/g/g-69372515ad4881918df4d4c2f4080477-revenue-per-employee-planner"
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-xs font-medium bg-foreground text-primary-foreground px-4 py-2 rounded-md hover:opacity-90 transition-opacity"
           >
-            Open Planner
-          </button>
+             Free Hiring Plan
+          </a>
         </div>
 
         <button
@@ -79,7 +81,6 @@ const Navbar = () => {
             {[
               ["Framework", "framework"],
               ["Services", "services"],
-              ["Open Planner", "diagnostic"],
             ].map(([label, id]) => (
               <button
                 key={id}
@@ -90,7 +91,16 @@ const Navbar = () => {
               </button>
             ))}
             <a
-              href="https://humaninthelooptalent.com/insights"
+              href="https://chatgpt.com/g/g-69372515ad4881918df4d4c2f4080477-revenue-per-employee-planner"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm text-left text-muted-foreground hover:text-foreground transition-colors py-2"
+              onClick={() => setMobileOpen(false)}
+            >
+              Free Hiring Plan
+            </a>
+            <a
+              href="https://humaninthelooptalent.com/insights/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-sm text-left text-muted-foreground hover:text-foreground transition-colors py-2"

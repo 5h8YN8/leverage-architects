@@ -7,6 +7,7 @@ import Index from "./pages/Index.tsx";
 import NotFound from "./pages/NotFound.tsx";
 import Privacy from "./pages/Privacy.tsx";
 import Terms from "./pages/Terms.tsx";
+import CookieBanner from "./components/CookieBanner.tsx";
 
 const queryClient = new QueryClient();
 
@@ -23,6 +24,7 @@ const App = () => (
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
+        <CookieBanner />
       </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>
