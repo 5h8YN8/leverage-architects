@@ -1,12 +1,12 @@
 import { motion } from "framer-motion";
 
 const problems = [
-  "Hiring roles that AI can already handle — wasting salary and time",
-  "No clarity on which hire will actually move revenue per employee",
-  "Combining three jobs into one role and wondering why output drops",
-  "Adding headcount instead of fixing broken workflows",
-  "Hiring junior when the bottleneck requires senior judgment",
-  "Making hiring decisions based on gut feel instead of data",
+  "Adding headcount to compensate for process inefficiency",
+  "Under-leveraging AI tooling",
+  "Combining unrelated workflows into one owner",
+  "Leaving senior judgment out of critical workflows",
+  "Making workplace model choices without operating-context review",
+  "Building teams without AI workflow design",
 ];
 
 const ProblemSection = () => {
@@ -21,7 +21,7 @@ const ProblemSection = () => {
         >
           <p className="text-xs font-medium text-accent tracking-widest uppercase mb-4">The Problem</p>
           <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-12 max-w-2xl leading-tight">
-            Most Teams Don't Know Who to Hire Next — So They Hire Wrong.
+            Most Product Teams Are Structured for a Pre-AI World.
           </h2>
         </motion.div>
 
@@ -48,8 +48,8 @@ const ProblemSection = () => {
           transition={{ duration: 0.6, delay: 0.3 }}
           className="text-base md:text-lg text-muted-foreground max-w-2xl leading-relaxed"
         >
-          Every bad hire lowers your revenue per employee. Every unnecessary hire does the same. 
-          The difference between growing and scaling is knowing exactly who to add — and who not to.
+          AI is collapsing execution layers. The companies that win will make
+          staffing, workflow, and tooling choices with clearer human judgment.
         </motion.p>
       </div>
     </section>

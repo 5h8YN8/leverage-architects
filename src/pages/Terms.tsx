@@ -24,14 +24,14 @@ const Terms = () => {
           <section>
             <h2 className="text-lg font-semibold mb-3">2. Description of Services</h2>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              Human in the Loop Talent provides AI-augmented workforce architecture consulting services, including but not limited to hiring diagnostics, workforce planning, role design, and talent acquisition strategy. Our diagnostic assessment tool provides preliminary analysis and recommendations based on the information you provide.
+              Human in the Loop Talent provides the Revenue Per Employee Planner and related AI-augmented workforce architecture services. The planning canvas helps organizations reflect on team structure, bottlenecks, operating leverage, AI adoption, role-area hypotheses, team-structure options, and roadmap ideas based on self-reported business inputs.
             </p>
           </section>
 
           <section>
             <h2 className="text-lg font-semibold mb-3">3. Use of Services</h2>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              You agree to use our services only for lawful purposes and in accordance with these Terms. You agree not to use our services in any way that could damage, disable, or impair our website or interfere with any other party's use of our services. You are responsible for maintaining the confidentiality of any account information and for all activities that occur under your account.
+              You agree to use our services only for lawful business planning purposes and in accordance with these Terms. Do not submit candidate, employee, applicant, protected-class, or personally sensitive employment data. You agree not to use our services to screen candidates, evaluate employees, rank people, infer protected-class traits, make compensation decisions, or make hiring, firing, promotion, discipline, or other employment decisions.
             </p>
           </section>
 
@@ -43,9 +43,9 @@ const Terms = () => {
           </section>
 
           <section>
-            <h2 className="text-lg font-semibold mb-3">5. Diagnostic Assessment</h2>
+            <h2 className="text-lg font-semibold mb-3">5. Planner Boundaries</h2>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              Our diagnostic assessment tool is provided for informational purposes only and does not constitute professional advice. The results and recommendations generated are based on the information you provide and general industry knowledge. Actual outcomes may vary. We recommend consulting with our team for a comprehensive analysis tailored to your specific situation.
+              The planning canvas is AI-assisted and generated from information you provide. It supports reflection and planning only. It does not make or recommend employment decisions, evaluate candidates or employees, screen applicants, infer protected-class traits, provide compensation advice, provide legal or HR compliance advice, or guarantee business outcomes. A human decision-maker remains responsible for all organizational, staffing, compensation, compliance, and employment choices.
             </p>
           </section>
 
@@ -59,7 +59,7 @@ const Terms = () => {
           <section>
             <h2 className="text-lg font-semibold mb-3">7. Limitation of Liability</h2>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              To the fullest extent permitted by law, Human in the Loop Talent shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from your use of our services. Our total liability for any claim arising from these Terms or our services shall not exceed the amount you paid us in the twelve months preceding the claim.
+              To the fullest extent permitted by law, Human in the Loop Talent shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from your use of our services, including organizational changes, staffing decisions, employment decisions, compensation decisions, compliance outcomes, or business outcomes. Our total liability for any claim arising from these Terms or our services shall not exceed the amount you paid us in the twelve months preceding the claim.
             </p>
           </section>
 

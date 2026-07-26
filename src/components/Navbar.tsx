@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import logoAsset from "@/assets/human-in-the-loop-logo.png.asset.json";
 
 const Navbar = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -14,7 +13,13 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-lg border-b border-border">
       <div className="section-container flex items-center justify-between h-16">
         <button onClick={() => scrollTo("hero")} className="flex items-center gap-2 text-sm font-semibold tracking-tight text-foreground">
-          <img src={logoAsset.url} alt="Human in the Loop Talent logo" className="h-6 w-6 object-contain" />
+          <img
+            src="/human-in-the-loop-logo-256.png"
+            alt=""
+            width="24"
+            height="24"
+            className="h-6 w-6 object-contain"
+          />
           Human in the Loop<span className="text-accent ml-1">Talent</span>
         </button>
 
@@ -32,21 +37,19 @@ const Navbar = () => {
             </button>
           ))}
           <a
-            href="https://humaninthelooptalent.com/insights/"
+            href="https://humaninthelooptalent.com/insights"
             target="_blank"
             rel="noopener noreferrer"
             className="text-xs font-medium text-muted-foreground hover:text-foreground transition-colors"
           >
             Insights
           </a>
-          <a
-            href="https://chatgpt.com/g/g-69372515ad4881918df4d4c2f4080477-revenue-per-employee-planner"
-            target="_blank"
-            rel="noopener noreferrer"
+          <button
+            onClick={() => scrollTo("diagnostic")}
             className="text-xs font-medium bg-foreground text-primary-foreground px-4 py-2 rounded-md hover:opacity-90 transition-opacity"
           >
-             Free Hiring Plan
-          </a>
+            Open Planner
+          </button>
         </div>
 
         <button
@@ -76,6 +79,7 @@ const Navbar = () => {
             {[
               ["Framework", "framework"],
               ["Services", "services"],
+              ["Open Planner", "diagnostic"],
             ].map(([label, id]) => (
               <button
                 key={id}
@@ -86,16 +90,7 @@ const Navbar = () => {
               </button>
             ))}
             <a
-              href="https://chatgpt.com/g/g-69372515ad4881918df4d4c2f4080477-revenue-per-employee-planner"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-sm text-left text-muted-foreground hover:text-foreground transition-colors py-2"
-              onClick={() => setMobileOpen(false)}
-            >
-              Free Hiring Plan
-            </a>
-            <a
-              href="https://humaninthelooptalent.com/insights/"
+              href="https://humaninthelooptalent.com/insights"
               target="_blank"
               rel="noopener noreferrer"
               className="text-sm text-left text-muted-foreground hover:text-foreground transition-colors py-2"
